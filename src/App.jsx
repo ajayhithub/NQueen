@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(2);
   const [result, setResult] = useState("");
   const [queenPos, setQueenPos] = useState([]);
-
+let  ajay=1
   const placeQueens = async (setQueenPos, count, setResult) => {
     setResult("");
     const queenPos = [];
